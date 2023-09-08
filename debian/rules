@@ -1,0 +1,10 @@
+#!/usr/bin/make -f  
+
+clean binary:
+	dh "$@"
+build:
+	make
+	make install DESTDIR=debian/muslim-backgrounds
+
+override_dh_builddeb:
+	dh_builddeb -- -Zgzip

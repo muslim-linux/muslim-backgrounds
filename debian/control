@@ -1,0 +1,12 @@
+Source: muslim-backgrounds
+Maintainer: aa@aa.aa <aa@aa.aa>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 1.0
+Section: utils
+
+Package: muslim-backgrounds
+Priority: extra  
+Architecture: all
+Depends: libc6
+Description: Muslim backgrounds
+ Muslim backgrounds
